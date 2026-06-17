@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Argument map of the Buddha relics session">
+  <style>
+    .box { stroke:#d0d7de; stroke-width:1.5; rx:10; }
+    .lbl { fill:#57606a; font-size:12px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; }
+    .t   { fill:#1f2328; font-size:15px; }
+    .tb  { fill:#1f2328; font-size:15px; font-weight:600; }
+    .arr { stroke:#57606a; stroke-width:2; fill:none; marker-end:url(#a); }
+  </style>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#57606a"/>
+    </marker>
+  </defs>
+
+  <text x="380" y="30" text-anchor="middle" class="tb" font-size="18">Buddha Relics — how the session reasons</text>
+
+  <!-- Question -->
+  <rect class="box" x="80" y="50" width="600" height="78" rx="10" fill="#ddf4ff"/>
+  <text x="100" y="74" class="lbl">The question</text>
+  <text x="100" y="98" class="t">Do the Buddha&#8217;s relics &#8220;reorganize&#8221; when the next Buddha comes &#8212;</text>
+  <text x="100" y="118" class="t">what texts support it, and is it likely?</text>
+  <path class="arr" d="M380 128 L380 158"/>
+
+  <!-- Textual placement -->
+  <rect class="box" x="80" y="160" width="600" height="86" rx="10" fill="#f6f8fa"/>
+  <text x="100" y="184" class="lbl">Where it actually sits</text>
+  <text x="100" y="208" class="t"><tspan class="tb">dh&#257;tu-antar&#257;dh&#257;na</tspan> = the 5th of the five &#8220;disappearances.&#8221;</text>
+  <text x="100" y="230" class="t">Commentarial &amp; chronicle material &#8212; <tspan class="tb">not</tspan> canonical sutta.</text>
+  <path class="arr" d="M380 246 L380 276"/>
+
+  <!-- Correction -->
+  <rect class="box" x="80" y="278" width="600" height="86" rx="10" fill="#f6f8fa"/>
+  <text x="100" y="302" class="lbl">The friend&#8217;s version, corrected</text>
+  <text x="100" y="326" class="t">Relics vanish to <tspan class="tb">close</tspan> Gotama&#8217;s era; Metteyya arises much later.</text>
+  <text x="100" y="348" class="t">Sequential &#8212; not &#8220;because the next Buddha comes.&#8221;</text>
+  <path class="arr" d="M380 364 L380 394"/>
+
+  <!-- Disagreement: two frameworks -->
+  <text x="380" y="414" text-anchor="middle" class="lbl">The disagreement</text>
+  <rect class="box" x="40" y="426" width="330" height="110" rx="10" fill="#fff8c5"/>
+  <text x="60" y="450" class="tb" font-size="14">Buddh&#257;nussati</text>
+  <text x="60" y="474" class="t">The relic is the <tspan class="tb">occasion</tspan>;</text>
+  <text x="60" y="494" class="t">the change happens in</text>
+  <text x="60" y="514" class="t">your own mind.</text>
+
+  <rect class="box" x="390" y="426" width="330" height="110" rx="10" fill="#fff8c5"/>
+  <text x="410" y="450" class="tb" font-size="14">adhi&#7789;&#7789;h&#257;na</text>
+  <text x="410" y="474" class="t">The Buddha&#8217;s resolve makes</text>
+  <text x="410" y="494" class="t">the relic a uniquely potent</text>
+  <text x="410" y="514" class="t">condition.</text>
+
+  <path class="arr" d="M205 536 L380 566"/>
+  <path class="arr" d="M555 536 L380 566"/>
+
+  <!-- Decisive evidence -->
+  <rect class="box" x="120" y="568" width="520" height="64" rx="10" fill="#ffebe9"/>
+  <text x="140" y="592" class="lbl">The decisive detail</text>
+  <text x="140" y="616" class="t"><tspan class="tb">Not everyone</tspan> in the group felt the &#8220;warbly&#8221; sensation.</text>
+  <path class="arr" d="M380 632 L380 662"/>
+
+  <!-- Resolution -->
+  <rect class="box" x="80" y="664" width="600" height="108" rx="10" fill="#dafbe1"/>
+  <text x="100" y="688" class="lbl">How it resolves</text>
+  <text x="100" y="712" class="t">Variation &#8658; <tspan class="tb">pa&#7789;icca-samupp&#257;da</tspan> (conditionality): same object,</text>
+  <text x="100" y="734" class="t">different minds, different results. <tspan class="tb">Buddh&#257;nussati is sufficient;</tspan></text>
+  <text x="100" y="756" class="t">adhi&#7789;&#7789;h&#257;na only explains <tspan class="tb">why this object</tspan>, not the experience.</text>
+  <path class="arr" d="M380 772 L380 802"/>
+
+  <!-- Upshot -->
+  <rect class="box" x="80" y="804" width="600" height="108" rx="10" fill="#ddf4ff"/>
+  <text x="100" y="828" class="lbl">Practical upshot</text>
+  <text x="100" y="852" class="t">Hold the prophecy lightly. Let a relic strengthen <tspan class="tb">saddh&#257;</tspan> /</text>
+  <text x="100" y="874" class="t"><tspan class="tb">sa&#7747;vega</tspan>, then turn that confidence toward investigating</text>
+  <text x="100" y="896" class="t"><tspan class="tb">anicca</tspan> in your own body. The relic points past itself.</text>
+</svg>

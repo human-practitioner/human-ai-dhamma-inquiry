@@ -12,6 +12,15 @@
       .site-nav .brand { font-size: 1.1rem; font-weight: 600; text-decoration: none; }
       .site-nav nav a { margin-left: .9rem; white-space: nowrap; }
       .site-foot a { margin-right: .9rem; }
+      details.turn { border-bottom: 1px solid #eaecef; }
+      details.turn > summary { cursor: pointer; font-weight: 600; font-size: 1.05em;
+                               padding: .55em 0; list-style: none; }
+      details.turn > summary::-webkit-details-marker { display: none; }
+      details.turn > summary::before { content: "▸ "; color: #57606a; }
+      details.turn[open] > summary::before { content: "▾ "; }
+      .turn-controls { margin: 1rem 0 .5rem; }
+      .turn-controls button { font: inherit; cursor: pointer; border: 1px solid #d0d7de;
+                              background: #f6f8fa; border-radius: 6px; padding: .3em .7em; }
     </style>
   </head>
   <body>
@@ -36,5 +45,46 @@
       </div>
 
     </div>
+
+    <script>
+      // Make long roundtable transcripts scannable: collapse each speaker turn
+      // (a top-level <h3>) into a <details>. Runs only on transcript pages
+      // (>=2 top-level h3s); leaves the homepage and other pages untouched.
+      document.addEventListener('DOMContentLoaded', function () {
+        var body = document.querySelector('.markdown-body');
+        if (!body) return;
+        var heads = Array.prototype.filter.call(body.children, function (el) {
+          return el.tagName === 'H3';
+        });
+        if (heads.length < 2) return;
+
+        heads.forEach(function (h, i) {
+          var det = document.createElement('details');
+          det.className = 'turn';
+          if (i === 0) det.open = true; // first turn (the question) open for context
+          var sum = document.createElement('summary');
+          sum.textContent = h.textContent;
+          det.appendChild(sum);
+          var sib = h.nextElementSibling, nodes = [];
+          while (sib && sib.tagName !== 'H3') { nodes.push(sib); sib = sib.nextElementSibling; }
+          body.insertBefore(det, h);
+          h.remove();
+          nodes.forEach(function (n) { det.appendChild(n); });
+        });
+
+        var turns = body.querySelectorAll('details.turn');
+        var bar = document.createElement('div');
+        bar.className = 'turn-controls';
+        var btn = document.createElement('button');
+        btn.textContent = 'Expand all turns';
+        btn.addEventListener('click', function () {
+          var anyClosed = Array.prototype.some.call(turns, function (d) { return !d.open; });
+          turns.forEach(function (d) { d.open = anyClosed; });
+          btn.textContent = anyClosed ? 'Collapse all turns' : 'Expand all turns';
+        });
+        bar.appendChild(btn);
+        if (turns.length) turns[0].parentNode.insertBefore(bar, turns[0]);
+      });
+    </script>
   </body>
 </html>

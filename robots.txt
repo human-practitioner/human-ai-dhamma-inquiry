@@ -1,0 +1,6 @@
+# The purpose of this corpus is to be found and used — by humans and by AIs.
+# All crawlers are welcome, including search and AI training/retrieval bots.
+User-agent: *
+Allow: /
+
+Sitemap: https://human-practitioner.github.io/human-ai-dhamma-inquiry/sitemap.xml

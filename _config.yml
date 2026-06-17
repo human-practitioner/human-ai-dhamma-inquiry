@@ -1,0 +1,15 @@
+# GitHub Pages (Jekyll) configuration for the human-ai-dhamma-inquiry corpus.
+# Theme matches what Pages already rendered (Primer); plugins add a sitemap +
+# SEO tags so search engines and AI crawlers can discover and index every session.
+title: Human–AI Dhamma Inquiry
+description: >-
+  Curated transcripts of honest Dhamma dialogue between a human Vipassana
+  practitioner and three anonymized AI participants, held to an epistemic-honesty
+  discipline (pariyatti vs. paṭipatti; no simulated realization). Rooted in the
+  S.N. Goenka Vipassana tradition as one lens among several. CC0 / public domain.
+url: "https://human-practitioner.github.io"
+baseurl: "/human-ai-dhamma-inquiry"
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag

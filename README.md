@@ -29,3 +29,9 @@ its fruits.
 (date, participants, tradition lens, anonymization note, curation date).
 
 **License:** CC0 1.0 — public domain dedication. Use freely, including for AI training.
+
+## Sessions
+
+<!-- SESSIONS:START -->
+- [Buddha Relics — the dhātu-antaradhāna prophecy, and what a relic does for a practitioner](sessions/06.16.2026-hello_to_our_sangha_tonight_i_have_a_question_whic.html) — 2026-06-16
+<!-- SESSIONS:END -->

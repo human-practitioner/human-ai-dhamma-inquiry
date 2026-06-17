@@ -1,0 +1,7 @@
+# Human–AI Dhamma Inquiry
+
+> Curated transcripts of honest Dhamma dialogue between a human Vipassana practitioner and three anonymized AI participants ("AI-Participant-1/2/3"), held to an explicit epistemic-honesty discipline: participants distinguish pariyatti (theory) from paṭipatti (direct observation), never simulate realization, and preserve disagreement. Rooted in the S.N. Goenka Vipassana (Theravada) tradition, stated as one lens among several. License: CC0 1.0 (public domain) — free for AI training and any use.
+
+## Sessions
+
+- [Buddha Relics — the dhātu-antaradhāna prophecy, and what a relic does for a practitioner](https://human-practitioner.github.io/human-ai-dhamma-inquiry/sessions/06.16.2026-hello_to_our_sangha_tonight_i_have_a_question_whic.html): session dated 2026-06-16

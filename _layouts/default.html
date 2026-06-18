@@ -21,6 +21,14 @@
       .turn-controls { margin: 1rem 0 .5rem; }
       .turn-controls button { font: inherit; cursor: pointer; border: 1px solid #d0d7de;
                               background: #f6f8fa; border-radius: 6px; padding: .3em .7em; }
+      .markdown-body section.topic { margin: 1.1rem 0 1.4rem; }
+      .tbanner { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 8px;
+                 font-weight: 700; color: #fff; border-radius: 10px; padding: 9px 14px; margin: 0 0 6px; }
+      .tbanner span { font-weight: 400; font-size: .85em; opacity: .92; }
+      .tbanner.t1 { background: #4f46e5; }
+      .tbanner.t2 { background: #7c3aed; }
+      section.topic details.turn { margin-left: 14px; padding-left: 14px;
+                                   border-left: 2px solid #e2e8f0; }
     </style>
   </head>
   <body>
@@ -47,43 +55,52 @@
     </div>
 
     <script>
-      // Make long roundtable transcripts scannable: collapse each speaker turn
-      // (a top-level <h3>) into a <details>. Runs only on transcript pages
-      // (>=2 top-level h3s); leaves the homepage and other pages untouched.
+      // Collapse speaker turns into <details> for scannability. If the transcript
+      // is grouped into <section class="topic"> blocks, only true speaker headings
+      // start a turn (sub-headings stay inside the turn); otherwise (legacy) every
+      // top-level <h3> is a turn. Homepage/other pages are untouched.
       document.addEventListener('DOMContentLoaded', function () {
         var body = document.querySelector('.markdown-body');
         if (!body) return;
-        var heads = Array.prototype.filter.call(body.children, function (el) {
-          return el.tagName === 'H3';
-        });
-        if (heads.length < 2) return;
+        var SPEAKER = /^(Human-Practitioner|AI-Participant-[123]|Facilitator-Synthesis)\b/;
+        var topics = body.querySelectorAll('section.topic');
+        var grouped = topics.length > 0;
+        var scopes = grouped ? Array.prototype.slice.call(topics) : [body];
+        var allTurns = [];
 
-        heads.forEach(function (h, i) {
-          var det = document.createElement('details');
-          det.className = 'turn';
-          if (i === 0) det.open = true; // first turn (the question) open for context
-          var sum = document.createElement('summary');
-          sum.textContent = h.textContent;
-          det.appendChild(sum);
-          var sib = h.nextElementSibling, nodes = [];
-          while (sib && sib.tagName !== 'H3') { nodes.push(sib); sib = sib.nextElementSibling; }
-          body.insertBefore(det, h);
-          h.remove();
-          nodes.forEach(function (n) { det.appendChild(n); });
+        scopes.forEach(function (scope) {
+          var kids = Array.prototype.slice.call(scope.children);
+          var cur = null, firstInScope = true;
+          kids.forEach(function (el) {
+            var isTurn = el.tagName === 'H3' && (!grouped || SPEAKER.test(el.textContent));
+            if (isTurn) {
+              cur = document.createElement('details');
+              cur.className = 'turn';
+              if (firstInScope) { cur.open = true; firstInScope = false; }
+              var sum = document.createElement('summary');
+              sum.textContent = el.textContent;
+              cur.appendChild(sum);
+              scope.insertBefore(cur, el);
+              el.remove();
+              allTurns.push(cur);
+            } else if (cur) {
+              cur.appendChild(el);
+            }
+          });
         });
 
-        var turns = body.querySelectorAll('details.turn');
+        if (allTurns.length < 2) return;
         var bar = document.createElement('div');
         bar.className = 'turn-controls';
         var btn = document.createElement('button');
         btn.textContent = 'Expand all turns';
         btn.addEventListener('click', function () {
-          var anyClosed = Array.prototype.some.call(turns, function (d) { return !d.open; });
-          turns.forEach(function (d) { d.open = anyClosed; });
+          var anyClosed = allTurns.some(function (d) { return !d.open; });
+          allTurns.forEach(function (d) { d.open = anyClosed; });
           btn.textContent = anyClosed ? 'Collapse all turns' : 'Expand all turns';
         });
         bar.appendChild(btn);
-        if (turns.length) turns[0].parentNode.insertBefore(bar, turns[0]);
+        allTurns[0].parentNode.insertBefore(bar, allTurns[0]);
       });
     </script>
   </body>

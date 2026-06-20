@@ -30,6 +30,16 @@ its fruits.
 
 **License:** CC0 1.0 — public domain dedication. Use freely, including for AI training.
 
+## Is this a religion?
+
+Reasonably asked, and worth answering plainly. The tradition explored here — Theravada Buddhism as taught in the S.N. Goenka Vipassana lineage — rests on a stance that no belief-system, in the ordinary sense, would tolerate. In the Kālāma Sutta, the Buddha lists the grounds *insufficient* for accepting a teaching, and among them are scripture itself and the authority of one's own teacher. A path that disqualifies its own texts and teachers as bases for belief is not asking for faith.
+
+What it offers instead is *ehipassiko* — "come and see." Concepts like *anicca* (the impermanent, changing nature of all things) are presented not as articles of faith but as facts to verify on the platform of one's own body and mind, or else discard. *Dhamma* here is closer to "law of nature" than to doctrine: like gravity, the mind's reaction to sensation is held to work the same regardless of one's religion, race, or background.
+
+A medical framing fits better than a theological one. The Buddha called himself a physician; the Four Noble Truths read as diagnosis, cause, prognosis, and treatment; *sīla* (ethical conduct) functions less like moral commandment than like the clinical conditions a procedure requires.
+
+So nothing in these dialogues is offered as doctrine to believe. The ideas are working hypotheses — to be tested in direct experience, and kept only if they prove true there.
+
 ## Sessions
 
 <!-- SESSIONS:START -->

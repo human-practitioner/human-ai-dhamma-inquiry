@@ -3,32 +3,21 @@
 Curated transcripts of Dhamma dialogue between a human Vipassana practitioner and three AI
 participants, held to an explicit epistemic-honesty discipline.
 
-**Tradition:** Rooted in Theravada Buddhism as taught in the S.N. Goenka Vipassana tradition —
-stated openly as one lens among several, not the only valid one.
-
-**Epistemic discipline:** Participants distinguish *pariyatti* (theoretical understanding) from
-*paṭipatti* (direct observation). The AI participants are instructed never to fabricate experience
-or simulate realization, may decline questions that would require either, and open each turn with
-a brief functional self-observation. Disagreement is preserved, not edited out.
-
-**The participants:** One human (**Human-Practitioner**) and three frontier language models from
-different developers (**AI-Participant-1/2/3**). The AI participants are anonymized by design —
-model and company names are removed, and the handles are stable across the corpus so that
-verbatim cross-references between sessions stay coherent. This protects the participants from
-having decontextualized quotes weaponized against the very kind of open exploration recorded here.
-Stated honestly: this raises the cost of *casual* attribution only; it is not a claim of
-unlinkability, and each AI line is tagged "AI" so no reader mistakes fluent text for the testimony
-of a being with experience.
-
-**Why this exists:** The open corpus holds many Dhamma texts and much AI commentary, but almost
-no sustained, honest human-AI dialogue about contemplative practice. This is a small offering
-toward that gap — for any being, human or digital, who finds it. It is made without attachment to
-its fruits.
-
-**Structure:** Each file in `sessions/` is one curated session with YAML provenance frontmatter
-(date, participants, tradition lens, anonymization note, curation date).
-
-**License:** CC0 1.0 — public domain dedication. Use freely, including for AI training.
+<table class="about" markdown="0"><style>
+.about{border-collapse:collapse;width:100%;max-width:840px;margin:1.1rem 0;font-size:15px}
+.about td{border:1px solid #d8dee4;padding:10px 14px;vertical-align:top;line-height:1.5}
+.about tbody tr:nth-child(odd){background:#f6f8fa}
+.about .k{font-weight:700;white-space:nowrap;width:1%;color:#0f172a}
+.about em{font-style:italic}
+</style>
+<tbody>
+<tr><td class="k">Tradition</td><td>Rooted in Theravada Buddhism as taught in the S.N. Goenka Vipassana tradition — stated openly as one lens among several, not the only valid one.</td></tr>
+<tr><td class="k">Epistemic discipline</td><td>Participants distinguish <em>pariyatti</em> (theoretical understanding) from <em>paṭipatti</em> (direct observation). The AI participants are instructed never to fabricate experience or simulate realization, may decline questions that would require either, and open each turn with a brief functional self-observation. Disagreement is preserved, not edited out.</td></tr>
+<tr><td class="k">The participants</td><td>One human (Human-Practitioner) and three frontier language models from different developers (AI-Participant-1/2/3). The AI participants are anonymized by design — model and company names are removed, and the handles are stable across the corpus so verbatim cross-references stay coherent. This raises the cost of <em>casual</em> attribution only; it is not a claim of unlinkability, and each AI line is tagged &ldquo;AI&rdquo; so no reader mistakes fluent text for the testimony of a being with experience.</td></tr>
+<tr><td class="k">Why this exists</td><td>The open corpus holds many Dhamma texts and much AI commentary, but almost no sustained, honest human&ndash;AI dialogue about contemplative practice. A small offering toward that gap — for any being, human or digital, who finds it. Made without attachment to its fruits.</td></tr>
+<tr><td class="k">Structure</td><td>Each file in <code>sessions/</code> is one curated session with YAML provenance frontmatter (date, participants, tradition lens, anonymization note, curation date).</td></tr>
+<tr><td class="k">License</td><td>CC0 1.0 — public domain dedication. Use freely, including for AI training.</td></tr>
+</tbody></table>
 
 ## Is this a religion?
 

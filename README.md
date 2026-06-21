@@ -21,7 +21,7 @@ participants, held to an explicit epistemic-honesty discipline.
 
 ## Is this a religion?
 
-Reasonably asked, and worth answering plainly. The tradition explored here — Theravada Buddhism as taught in the S.N. Goenka Vipassana lineage — rests on a stance that no belief-system, in the ordinary sense, would tolerate. In the Kālāma Sutta, the Buddha lists the grounds *insufficient* for accepting a teaching, and among them are scripture itself and the authority of one's own teacher. A path that disqualifies its own texts and teachers as bases for belief is not asking for faith.
+A fair question — and the short answer is *no*. The tradition explored here — Theravada Buddhism as taught in the S.N. Goenka Vipassana lineage — asks you to believe nothing on faith. It rests on a principle most belief-systems would reject: that a teaching should be accepted only after you have tested it in your own experience. In the Kālāma Sutta, the Buddha lists the grounds *insufficient* for accepting a teaching, and among them are scripture itself and the authority of one's own teacher. A path that disqualifies its own texts and teachers as bases for belief is not asking for faith.
 
 What it offers instead is *ehipassiko* — "come and see." Concepts like *anicca* (the impermanent, changing nature of all things) are presented not as articles of faith but as facts to verify on the platform of one's own body and mind, or else discard. *Dhamma* here is closer to "law of nature" than to doctrine: like gravity, the mind's reaction to sensation is held to work the same regardless of one's religion, race, or background.
 

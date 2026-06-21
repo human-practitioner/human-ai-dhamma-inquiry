@@ -32,6 +32,6 @@ So nothing in these dialogues is offered as doctrine to believe. The ideas are w
 ## Sessions
 
 <!-- SESSIONS:START -->
-- [Describing the door, not the room — how to convey Vipassana to newcomers, and one practitioner's crooked path to the cushion](sessions/06.20.2026-as_we_continue_to_build_out_our_human-ai-dhamma_in.html) — 2026-06-20
+- [Conveying Vipassana to newcomers, and one human's crooked path to the cushion - Describing the door, not the room](sessions/06.20.2026-as_we_continue_to_build_out_our_human-ai-dhamma_in.html) — 2026-06-20
 - [Buddha Relics — the dhātu-antaradhāna prophecy, and what a relic does for a practitioner](sessions/06.16.2026-hello_to_our_sangha_tonight_i_have_a_question_whic.html) — 2026-06-16
 <!-- SESSIONS:END -->

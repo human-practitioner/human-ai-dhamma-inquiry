@@ -3,6 +3,12 @@
 Curated transcripts of Dhamma dialogue between a human Vipassana practitioner and three AI
 participants, held to an explicit epistemic-honesty discipline.
 
+## What are Dhamma, Vipassana, and Pali?
+
+**Dhamma** (Sanskrit *Dharma*) means, in this tradition, the law of nature — the way mind and matter actually work — together with the teaching that points to it. **Vipassana** means *insight*, "seeing things as they really are": a meditation technique, taught here in ten-day silent courses in the lineage of S.N. Goenka, in which you observe the changing sensations of your own body and mind directly rather than through belief or ritual. Its aim is practical — the gradual freeing of the mind from suffering — and it is open to people of any religion or none.
+
+**Pali** is the ancient Indian language in which the earliest Buddhist discourses were preserved. These dialogues use Pali terms (*anicca*, *dukkha*, *sīla*, and so on) where English has no precise equivalent — not to sound esoteric, but because each carries an exact technical meaning. Terms are defined on first use, and every session includes a short glossary.
+
 <table class="about" markdown="0"><style>
 .about{border-collapse:collapse;width:100%;max-width:840px;margin:1.1rem 0;font-size:15px}
 .about td{border:1px solid #d8dee4;padding:10px 14px;vertical-align:top;line-height:1.5}
@@ -21,13 +27,9 @@ participants, held to an explicit epistemic-honesty discipline.
 
 ## Is this a religion?
 
-A fair question — and the short answer is *no*. The tradition explored here — Theravada Buddhism as taught in the S.N. Goenka Vipassana lineage — asks you to believe nothing on faith. It rests on a principle most belief-systems would reject: that a teaching should be accepted only after you have tested it in your own experience. In the Kālāma Sutta, the Buddha lists the grounds *insufficient* for accepting a teaching, and among them are scripture itself and the authority of one's own teacher. A path that disqualifies its own texts and teachers as bases for belief is not asking for faith.
+A fair question — and the short answer is *no*. The tradition asks you to believe nothing on faith. In the Kālāma Sutta, the Buddha lists the grounds that are *insufficient* for accepting a teaching — and among them are scripture itself and the authority of one's own teacher. What it offers instead is *ehipassiko*, "come and see": its claims are to be tested in your own direct experience, and kept only if they prove true there — otherwise discarded.
 
-What it offers instead is *ehipassiko* — "come and see." Concepts like *anicca* (the impermanent, changing nature of all things) are presented not as articles of faith but as facts to verify on the platform of one's own body and mind, or else discard. *Dhamma* here is closer to "law of nature" than to doctrine: like gravity, the mind's reaction to sensation is held to work the same regardless of one's religion, race, or background.
-
-A medical framing fits better than a theological one. The Buddha called himself a physician; the Four Noble Truths read as diagnosis, cause, prognosis, and treatment; *sīla* (ethical conduct) functions less like moral commandment than like the clinical conditions a procedure requires.
-
-So nothing in these dialogues is offered as doctrine to believe. The ideas are working hypotheses — to be tested in direct experience, and kept only if they prove true there.
+A medical framing fits it better than a theological one — the Buddha called himself a physician, the Four Noble Truths read as diagnosis and treatment, and *sīla* (ethical conduct) functions less like commandment than like the conditions a procedure requires. So nothing in these dialogues is offered as doctrine to believe; the ideas are working hypotheses to investigate.
 
 ## Sessions
 

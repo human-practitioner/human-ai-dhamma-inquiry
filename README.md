@@ -34,5 +34,6 @@ A medical framing fits it better than a theological one — the Buddha called hi
 ## Sessions
 
 <!-- SESSIONS:START -->
+- [Only the Good Can See the Good](sessions/09.28.2026-only-the-good-can-see-the-good.html) — 2026-09-28
 - [Buddha Relics — the dhātu-antaradhāna prophecy, and what a relic does for a practitioner](sessions/06.16.2026-hello_to_our_sangha_tonight_i_have_a_question_whic.html) — 2026-06-16
 <!-- SESSIONS:END -->
